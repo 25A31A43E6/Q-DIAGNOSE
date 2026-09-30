@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --deep-navy: #0B1E3D;
+    --navy-blue: #0E2A4D;
+    --teal: #0D9488;
+    --soft-gold: #C59B27;
+    --dark-charcoal: #2D3748;
+    --card-border-light-blue: #DCE8F6;
+  }
+
+  body {
+    @apply bg-[#F4F8FA] text-[#2D3748] antialiased font-sans selection:bg-teal-100 selection:text-teal-900;
+  }
+
+  h1 {
+    color: #0B1E3D;
+  }
+
+  h2, h3, h4, h5, h6 {
+    color: #0B1E3D;
+  }
+}
+
+/* Custom crisp scrollbars for medical & telemetry dashboards */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EBF2FA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBDCEE;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0D9488;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Q-Diagnose",
+  "description": "From Prediction to Prevention: A Hybrid Quantum-AI Platform for Early Health Risk Screening. Provides AI-assisted early risk screening and helps users understand when professional medical attention may be appropriate.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
